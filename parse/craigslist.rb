@@ -1,4 +1,4 @@
-require             'JSON'
+require             'json'
 require             './parse_utils'
 _input            = File.read 'stage1.out'
 _hash             = JSON.parse _input
